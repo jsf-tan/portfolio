@@ -29,7 +29,7 @@ function ProjectCard({
       >
         <div
           className="min-h-[360px] h-full bg-cover bg-center"
-          style={{ backgroundImage: `url(${image})` }}
+          style={{ backgroundImage: `url(${imagePath})` }}
         ></div>
       </motion.div>
 

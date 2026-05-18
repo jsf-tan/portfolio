@@ -1,6 +1,6 @@
 export const projects = [
   {
-    image: './src/assets/images/CartonCloud.jpg',
+    image: '../../../assets/images/CartonCloud.jpg',
     link: 'https://www.cartoncloud.com',
     type: 'Analytics Platform',
     title: 'Cloud-based business analytics system',
@@ -10,7 +10,7 @@ export const projects = [
     stack: ['React', 'Node.js', 'PostgreSQL', 'Redis'],
   },
   {
-    image: './src/assets/images/orderful.jpg',
+    image: '../../../assets/images/orderful.jpg',
     link: 'https://www.orderful.com',
     type: 'SaaS Infrastructure',
     title: 'Multi-tenant SaaS architecture with scalable APIs',
@@ -20,7 +20,7 @@ export const projects = [
     stack: ['Next.js', 'Kafka', 'AWS', 'Docker'],
   },
   {
-    image: './src/assets/images/devtron.jpg',
+    image: '../../../assets/images/devtron.jpg',
     link: 'https://devtron.ai',
     type: 'Developer Platform',
     title: 'Modern frontend platform with infrastructure integration',
