@@ -11,6 +11,8 @@ function ProjectCard({
   work,
   stack = [],
 }: Project) {
+  const imagePath = new URL('../assets/images/CartonCloud.jpg', import.meta.url)
+    .href
   return (
     <div
       className={clsx(
